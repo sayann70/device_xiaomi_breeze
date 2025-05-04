@@ -28,6 +28,9 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 24066PC95I
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Boot animaton
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="breeze-user 15 AQ3A.240912.001 OS2.0.201.0.VNUINXM release-keys" \
     BuildFingerprint=POCO/breeze_p_in/breeze:15/AQ3A.240912.001/OS2.0.201.0.VNUINXM:user/release-keys \
