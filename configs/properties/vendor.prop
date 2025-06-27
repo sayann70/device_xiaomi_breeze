@@ -221,9 +221,6 @@ persist.vendor.fingerprint.sensor_location=1080|1000|110|local:46309466316292857
 # FM
 vendor.qcom.bluetooth.soc=cherokee
 
-# RFP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 
