@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit common lineage configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/lineage/config/BoardConfigReservedSize.mk)
+#$(call inherit-product, vendor/lineage/config/BoardConfigReservedSize.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/breeze/device.mk)
@@ -36,3 +36,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Lunaris-AOSP
+WITH_GMS := true
+WITH_BCR := true
+SURFACE_FLINGER_BOOST := true
