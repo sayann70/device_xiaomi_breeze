@@ -6,3 +6,6 @@ git clone https://github.com/Niyush-04/device_xiaomi_breeze-kernel device/xiaomi
 
 # Hardware/Xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+
+# GameBar
+git clone https://github.com/kenway214/packages_apps_GameBar packages/apps/GameBar
