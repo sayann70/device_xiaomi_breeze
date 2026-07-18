@@ -41,3 +41,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 WITH_GMS := true
 WITH_BCR := true
 SURFACE_FLINGER_BOOST := true
+USE_REALITY_ENGINE := true
